@@ -63,7 +63,9 @@ public class UserController {
 		user = userDao.findByEmailIdAndPasswordAndRole(loginRequest.getEmailId(), loginRequest.getPassword(), loginRequest.getRole());
 		
 		System.out.println("response sent!!!");
+		System.out.println("logged in sussfully");
 		return ResponseEntity.ok(user);
+		
 	}
 	
 	@GetMapping("deliveryperson/all")
