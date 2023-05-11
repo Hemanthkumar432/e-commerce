@@ -15,7 +15,7 @@ import com.onlineshopping.model.Category;
 
 @RestController
 @RequestMapping("api/category")
-@CrossOrigin(origins = https://psychotic-record-production.up.railway.app")
+@CrossOrigin(origins ="https://psychotic-record-production.up.railway.app")
 public class CategoryController {
 
 	@Autowired

@@ -29,7 +29,7 @@ import com.onlineshopping.utility.StorageService;
 
 @RestController
 @RequestMapping("api/product")
-@CrossOrigin(origins = https://psychotic-record-production.up.railway.app")
+@CrossOrigin(origins ="https://psychotic-record-production.up.railway.app")
 public class ProductController {
 	
 	@Autowired

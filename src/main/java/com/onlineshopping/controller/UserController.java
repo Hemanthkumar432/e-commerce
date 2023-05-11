@@ -19,7 +19,7 @@ import com.onlineshopping.model.User;
 
 @RestController
 @RequestMapping("api/user")
-@CrossOrigin(origins = https://psychotic-record-production.up.railway.app")
+@CrossOrigin(origins ="https://psychotic-record-production.up.railway.app")
 public class UserController {
 	
 	@Autowired
